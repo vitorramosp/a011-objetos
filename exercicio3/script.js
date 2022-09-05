@@ -31,8 +31,7 @@ const jatoDeAgua={
 pokemon1.ataques=[]
 pokemon1.ataques.push(investida)
 
-
-pokemon2 = [...pokemon1.ataques]
-
-
+pokemon2.ataques = [...pokemon1.ataques]
+pokemon1.ataques.push(folhaNavalha)
+pokemon2.ataques.push(jatoDeAgua)
 console.log(pokemon1,pokemon2)
